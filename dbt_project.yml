@@ -1,0 +1,13 @@
+name: metricflow_ai_loc
+version: '1.0.0'
+config-version: 2
+profile: metricflow_ai_loc
+model-paths: [models]
+seed-paths: [seeds]
+test-paths: [tests]
+clean-targets: [target, dbt_packages]
+flags:
+  send_anonymous_usage_stats: false
+models:
+  metricflow_ai_loc:
+    +materialized: table

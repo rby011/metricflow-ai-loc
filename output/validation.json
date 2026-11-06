@@ -1,0 +1,42 @@
+{
+  "dataset": {
+    "synthetic": true,
+    "raw_events": 470,
+    "counted_commits": 463,
+    "start": "2026-10-05",
+    "end": "2026-11-01",
+    "timezone": "Asia/Seoul"
+  },
+  "totals": {
+    "commit_loc": 118571,
+    "ai_loc": 65417,
+    "human_loc": 53154,
+    "ai_share": 0.5517116326926483,
+    "commit_count": 463,
+    "deleted_loc": 30727,
+    "churn_loc": 149298
+  },
+  "dbt_data_tests": {
+    "count": 9,
+    "passed": true
+  },
+  "metricflow_api_tests": {
+    "count": 10,
+    "passed": true,
+    "suite": "checks/test_metrics.py"
+  },
+  "http_smoke": {
+    "GET_dashboard": 200,
+    "POST_query": 200,
+    "GET_openapi": 200
+  },
+  "dom_checks": {
+    "filter_scenarios": 36,
+    "tabs": true,
+    "copy": true,
+    "csv": true,
+    "javascript_errors": [],
+    "visual_browser_review": false
+  },
+  "visual_review": "Not completed: environment prevented local browser launch and cloud browser file access."
+}

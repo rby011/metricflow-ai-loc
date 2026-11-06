@@ -1,0 +1,7 @@
+metricflow_ai_loc:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: data/ai_loc.duckdb
+      threads: 1

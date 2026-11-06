@@ -1,0 +1,471 @@
+event_id,repository,commit_sha,organization,agent,author_id,committed_at,ingested_at,added_loc,deleted_loc,ai_added_loc,is_merge,is_bot
+evt-0001,mobile-core,dfc8257982cf,모바일개발,Claude Code,dev-11,2026-10-05T09:05:00+09:00,2026-10-05T09:10:00+09:00,21,103,14,False,False
+evt-0002,mobile-core,9f460f20087f,모바일개발,Human,dev-04,2026-10-05T11:17:00+09:00,2026-10-05T11:22:00+09:00,23,55,0,False,False
+evt-0003,mobile-ui,db06ec164770,모바일개발,Claude Code,dev-22,2026-10-05T09:08:00+09:00,2026-10-05T09:13:00+09:00,314,0,131,False,False
+evt-0004,mobile-ui,6598f61d8dd9,모바일개발,Cline,dev-03,2026-10-05T11:15:00+09:00,2026-10-05T11:20:00+09:00,373,128,206,False,False
+evt-0005,mobile-ui,f36c59a7ebda,모바일개발,Cline,dev-23,2026-10-05T13:53:00+09:00,2026-10-05T13:58:00+09:00,425,51,236,False,False
+evt-0006,mobile-ui,3b62a99c7940,모바일개발,Human,dev-14,2026-10-05T15:04:00+09:00,2026-10-05T15:09:00+09:00,385,19,0,False,False
+evt-0007,tv-platform,b93209c42cd7,TV개발,Cline,dev-06,2026-10-05T09:50:00+09:00,2026-10-05T09:55:00+09:00,63,100,29,False,False
+evt-0008,tv-platform,4a081aeab45f,TV개발,Claude Code,dev-02,2026-10-05T11:27:00+09:00,2026-10-05T11:32:00+09:00,136,54,50,False,False
+evt-0009,tv-platform,cc8b2b39c043,TV개발,Claude Code,dev-22,2026-10-05T13:02:00+09:00,2026-10-05T13:07:00+09:00,301,35,143,False,False
+evt-0010,tv-app,631cef654498,TV개발,Claude Code,dev-08,2026-10-05T09:23:00+09:00,2026-10-05T09:28:00+09:00,73,5,34,False,False
+evt-0011,tv-app,2d71ee7831ff,TV개발,Claude Code,dev-01,2026-10-05T11:25:00+09:00,2026-10-05T11:30:00+09:00,209,53,97,False,False
+evt-0012,tv-app,9284b8bee514,TV개발,Claude Code,dev-16,2026-10-05T13:04:00+09:00,2026-10-05T13:09:00+09:00,122,129,50,False,False
+evt-0013,platform-api,b23dc86121b2,공통플랫폼,Claude Code,dev-10,2026-10-05T09:46:00+09:00,2026-10-05T09:51:00+09:00,312,6,196,False,False
+evt-0014,platform-api,ddab810f0bdd,공통플랫폼,Human,dev-04,2026-10-05T11:52:00+09:00,2026-10-05T11:57:00+09:00,245,128,0,False,False
+evt-0015,platform-api,ed9fb478e39e,공통플랫폼,Claude Code,dev-24,2026-10-05T13:56:00+09:00,2026-10-05T14:01:00+09:00,403,121,332,False,False
+evt-0016,platform-api,d7f713644723,공통플랫폼,Cline,dev-12,2026-10-05T15:22:00+09:00,2026-10-05T15:27:00+09:00,434,7,362,False,False
+evt-0017,developer-tools,823719eb1b66,공통플랫폼,Claude Code,dev-12,2026-10-05T09:24:00+09:00,2026-10-05T09:29:00+09:00,70,61,56,False,False
+evt-0018,developer-tools,e82628fd9546,공통플랫폼,Claude Code,dev-15,2026-10-05T11:23:00+09:00,2026-10-05T11:28:00+09:00,347,101,233,False,False
+evt-0019,developer-tools,22a81d15d4d2,공통플랫폼,Cline,dev-21,2026-10-05T13:29:00+09:00,2026-10-05T13:34:00+09:00,263,103,207,False,False
+evt-0020,developer-tools,8d286d9a3772,공통플랫폼,Cline,dev-20,2026-10-05T15:26:00+09:00,2026-10-05T15:31:00+09:00,138,110,103,False,False
+evt-0021,developer-tools,7026c37e0185,공통플랫폼,Human,dev-06,2026-10-05T17:47:00+09:00,2026-10-05T17:52:00+09:00,180,80,0,False,False
+evt-0022,mobile-core,b5d0f2139f35,모바일개발,Claude Code,dev-08,2026-10-06T09:49:00+09:00,2026-10-06T09:54:00+09:00,314,58,231,False,False
+evt-0023,mobile-core,91ae3d3a65de,모바일개발,Cline,dev-18,2026-10-06T11:42:00+09:00,2026-10-06T11:47:00+09:00,23,129,16,False,False
+evt-0024,mobile-core,f01f1d8708d4,모바일개발,Cline,dev-21,2026-10-06T13:20:00+09:00,2026-10-06T13:25:00+09:00,81,4,37,False,False
+evt-0025,mobile-ui,235083ce26a4,모바일개발,Cline,dev-22,2026-10-06T09:23:00+09:00,2026-10-06T09:28:00+09:00,208,76,147,False,False
+evt-0026,mobile-ui,4219762cab54,모바일개발,Claude Code,dev-15,2026-10-06T11:48:00+09:00,2026-10-06T11:53:00+09:00,367,122,183,False,False
+evt-0027,tv-platform,e54066540d57,TV개발,Claude Code,dev-05,2026-10-06T09:16:00+09:00,2026-10-06T09:21:00+09:00,260,127,118,False,False
+evt-0028,tv-platform,c50dba328e3f,TV개발,Claude Code,dev-07,2026-10-06T11:17:00+09:00,2026-10-06T11:22:00+09:00,414,45,153,False,False
+evt-0029,tv-platform,a24586b7ee4c,TV개발,Claude Code,dev-20,2026-10-06T13:26:00+09:00,2026-10-06T13:31:00+09:00,395,73,215,False,False
+evt-0030,tv-platform,06323d85d2d7,TV개발,Cline,dev-04,2026-10-06T15:35:00+09:00,2026-10-06T15:40:00+09:00,204,86,86,False,False
+evt-0031,tv-platform,0b2cda1b18e6,TV개발,Claude Code,dev-10,2026-10-06T17:08:00+09:00,2026-10-06T17:13:00+09:00,351,92,179,False,False
+evt-0032,tv-app,1bed32651ca9,TV개발,Cline,dev-10,2026-10-06T09:18:00+09:00,2026-10-06T09:23:00+09:00,446,63,235,False,False
+evt-0033,tv-app,d48199bb9633,TV개발,Claude Code,dev-24,2026-10-06T11:09:00+09:00,2026-10-06T11:14:00+09:00,268,77,117,False,False
+evt-0034,tv-app,d9a755bb934b,TV개발,Claude Code,dev-10,2026-10-06T13:09:00+09:00,2026-10-06T13:14:00+09:00,344,17,117,False,False
+evt-0035,tv-app,0d9e29a30e3b,TV개발,Claude Code,dev-12,2026-10-06T15:00:00+09:00,2026-10-06T15:05:00+09:00,247,98,162,False,False
+evt-0036,platform-api,80e575cc4c1a,공통플랫폼,Claude Code,dev-23,2026-10-06T09:10:00+09:00,2026-10-06T09:15:00+09:00,44,113,32,False,False
+evt-0037,platform-api,04d05420ea68,공통플랫폼,Human,dev-23,2026-10-06T11:06:00+09:00,2026-10-06T11:11:00+09:00,134,128,0,False,False
+evt-0038,platform-api,5d49356cec2b,공통플랫폼,Claude Code,dev-12,2026-10-06T13:15:00+09:00,2026-10-06T13:20:00+09:00,103,116,74,False,False
+evt-0039,platform-api,be865fef435d,공통플랫폼,Claude Code,dev-15,2026-10-06T15:22:00+09:00,2026-10-06T15:27:00+09:00,375,77,282,False,False
+evt-0040,developer-tools,f376aca0a0e1,공통플랫폼,Claude Code,dev-13,2026-10-06T09:14:00+09:00,2026-10-06T09:19:00+09:00,421,95,252,False,False
+evt-0041,developer-tools,e46d3cf25b98,공통플랫폼,Claude Code,dev-09,2026-10-06T11:53:00+09:00,2026-10-06T11:58:00+09:00,341,93,210,False,False
+evt-0042,developer-tools,1fe6dc0e0dfc,공통플랫폼,Cline,dev-16,2026-10-06T13:24:00+09:00,2026-10-06T13:29:00+09:00,316,118,230,False,False
+evt-0043,developer-tools,e99674668921,공통플랫폼,Cline,dev-05,2026-10-06T15:06:00+09:00,2026-10-06T15:11:00+09:00,393,37,290,False,False
+evt-0044,developer-tools,bde5b5679508,공통플랫폼,Cline,dev-18,2026-10-06T17:29:00+09:00,2026-10-06T17:34:00+09:00,220,1,144,False,False
+evt-0045,mobile-core,f41a54981e55,모바일개발,Cline,dev-20,2026-10-07T09:51:00+09:00,2026-10-07T09:56:00+09:00,230,99,167,False,False
+evt-0046,mobile-core,a9381e4d34a1,모바일개발,Claude Code,dev-23,2026-10-07T11:06:00+09:00,2026-10-07T11:11:00+09:00,63,95,29,False,False
+evt-0047,mobile-core,33b56f841939,모바일개발,Claude Code,dev-11,2026-10-07T13:10:00+09:00,2026-10-07T13:15:00+09:00,200,37,126,False,False
+evt-0048,mobile-ui,7500a77c04bf,모바일개발,Cline,dev-17,2026-10-07T09:11:00+09:00,2026-10-07T09:16:00+09:00,336,118,168,False,False
+evt-0049,mobile-ui,9cc895e811b4,모바일개발,Claude Code,dev-19,2026-10-07T11:06:00+09:00,2026-10-07T11:11:00+09:00,266,8,173,False,False
+evt-0050,mobile-ui,4670941767ae,모바일개발,Human,dev-09,2026-10-07T13:58:00+09:00,2026-10-07T14:03:00+09:00,228,24,0,False,False
+evt-0051,mobile-ui,d129bd4b2888,모바일개발,Claude Code,dev-14,2026-10-07T15:26:00+09:00,2026-10-07T15:31:00+09:00,209,63,126,False,False
+evt-0052,mobile-ui,0d6d450a4d53,모바일개발,Human,dev-16,2026-10-07T17:25:00+09:00,2026-10-07T17:30:00+09:00,107,4,0,False,False
+evt-0053,tv-platform,658c574b3324,TV개발,Claude Code,dev-10,2026-10-07T09:42:00+09:00,2026-10-07T09:47:00+09:00,205,118,82,False,False
+evt-0054,tv-platform,c3458abe1a70,TV개발,Claude Code,dev-16,2026-10-07T11:55:00+09:00,2026-10-07T12:00:00+09:00,296,105,80,False,False
+evt-0055,tv-app,000d9bff2152,TV개발,Claude Code,dev-16,2026-10-07T09:47:00+09:00,2026-10-07T09:52:00+09:00,464,54,148,False,False
+evt-0056,tv-app,9aee3636c02d,TV개발,Human,dev-21,2026-10-07T11:01:00+09:00,2026-10-07T11:06:00+09:00,153,74,0,False,False
+evt-0057,platform-api,7597bd307cb0,공통플랫폼,Claude Code,dev-18,2026-10-07T09:14:00+09:00,2026-10-07T09:19:00+09:00,470,76,362,False,False
+evt-0058,platform-api,6b4e16ba06ad,공통플랫폼,Claude Code,dev-11,2026-10-07T11:21:00+09:00,2026-10-07T11:26:00+09:00,98,75,58,False,False
+evt-0059,platform-api,517dda53bdfd,공통플랫폼,Claude Code,dev-13,2026-10-07T13:40:00+09:00,2026-10-07T13:45:00+09:00,412,9,258,False,False
+evt-0060,developer-tools,a91d14884049,공통플랫폼,Claude Code,dev-23,2026-10-07T09:31:00+09:00,2026-10-07T09:36:00+09:00,457,93,373,False,False
+evt-0061,developer-tools,d9d0e1e07177,공통플랫폼,Human,dev-15,2026-10-07T11:56:00+09:00,2026-10-07T12:01:00+09:00,79,74,0,False,False
+evt-0062,developer-tools,28d2a2a19618,공통플랫폼,Claude Code,dev-16,2026-10-07T13:05:00+09:00,2026-10-07T13:10:00+09:00,258,57,190,False,False
+evt-0063,developer-tools,9864051d66ee,공통플랫폼,Human,dev-17,2026-10-07T15:04:00+09:00,2026-10-07T15:09:00+09:00,109,118,0,False,False
+evt-0064,mobile-core,b8a4a188e569,모바일개발,Human,dev-03,2026-10-08T09:14:00+09:00,2026-10-08T09:19:00+09:00,270,94,0,False,False
+evt-0065,mobile-core,2dd13cc1e95a,모바일개발,Cline,dev-01,2026-10-08T11:44:00+09:00,2026-10-08T11:49:00+09:00,299,37,213,False,False
+evt-0066,mobile-core,2b4a5ff8bdae,모바일개발,Claude Code,dev-22,2026-10-08T13:42:00+09:00,2026-10-08T13:47:00+09:00,188,7,109,False,False
+evt-0067,mobile-ui,3625b1b1be90,모바일개발,Claude Code,dev-03,2026-10-08T09:07:00+09:00,2026-10-08T09:12:00+09:00,392,86,242,False,False
+evt-0068,mobile-ui,70eeecdeaea8,모바일개발,Claude Code,dev-16,2026-10-08T11:31:00+09:00,2026-10-08T11:36:00+09:00,19,91,12,False,False
+evt-0069,tv-platform,53aabe5f2ceb,TV개발,Claude Code,dev-09,2026-10-08T09:15:00+09:00,2026-10-08T09:20:00+09:00,355,26,143,False,False
+evt-0070,tv-platform,e0ba1d1ab812,TV개발,Human,dev-04,2026-10-08T11:17:00+09:00,2026-10-08T11:22:00+09:00,243,56,0,False,False
+evt-0071,tv-app,b9cbd60576e3,TV개발,Claude Code,dev-05,2026-10-08T09:59:00+09:00,2026-10-08T10:04:00+09:00,392,124,212,False,False
+evt-0072,tv-app,a8f849e73207,TV개발,Claude Code,dev-18,2026-10-08T11:04:00+09:00,2026-10-08T11:09:00+09:00,391,23,220,False,False
+evt-0073,tv-app,288861dc51b7,TV개발,Claude Code,dev-07,2026-10-08T13:41:00+09:00,2026-10-08T13:46:00+09:00,370,18,239,False,False
+evt-0074,tv-app,b961bf8dc2fd,TV개발,Claude Code,dev-08,2026-10-08T15:56:00+09:00,2026-10-08T16:01:00+09:00,215,116,115,False,False
+evt-0075,platform-api,854e1fc7b111,공통플랫폼,Claude Code,dev-06,2026-10-08T09:50:00+09:00,2026-10-08T09:55:00+09:00,52,100,44,False,False
+evt-0076,platform-api,4136c595a0a5,공통플랫폼,Claude Code,dev-05,2026-10-08T11:50:00+09:00,2026-10-08T11:55:00+09:00,33,24,24,False,False
+evt-0077,developer-tools,0be042a45c59,공통플랫폼,Cline,dev-18,2026-10-08T09:16:00+09:00,2026-10-08T09:21:00+09:00,408,69,361,False,False
+evt-0078,developer-tools,c4da6abd0c3f,공통플랫폼,Human,dev-09,2026-10-08T11:41:00+09:00,2026-10-08T11:46:00+09:00,421,119,0,False,False
+evt-0079,mobile-core,88c2e3972d54,모바일개발,Claude Code,dev-08,2026-10-09T09:20:00+09:00,2026-10-09T09:25:00+09:00,207,20,131,False,False
+evt-0080,mobile-core,20fbb6e9af0b,모바일개발,Claude Code,dev-09,2026-10-09T11:30:00+09:00,2026-10-09T11:35:00+09:00,138,39,108,False,False
+evt-0081,mobile-core,0fdc5d6df67e,모바일개발,Human,dev-05,2026-10-09T13:20:00+09:00,2026-10-09T13:25:00+09:00,213,77,0,False,False
+evt-0082,mobile-ui,19748a06f65c,모바일개발,Claude Code,dev-09,2026-10-09T09:33:00+09:00,2026-10-09T09:38:00+09:00,425,90,204,False,False
+evt-0083,mobile-ui,dcf6506a807a,모바일개발,Claude Code,dev-22,2026-10-09T11:37:00+09:00,2026-10-09T11:42:00+09:00,276,12,128,False,False
+evt-0084,mobile-ui,9d2e1d493c1f,모바일개발,Claude Code,dev-04,2026-10-09T13:46:00+09:00,2026-10-09T13:51:00+09:00,100,25,42,False,False
+evt-0085,tv-platform,f4461cfa77de,TV개발,Claude Code,dev-01,2026-10-09T09:23:00+09:00,2026-10-09T09:28:00+09:00,399,126,170,False,False
+evt-0086,tv-platform,09fbdca222cf,TV개발,Claude Code,dev-13,2026-10-09T11:39:00+09:00,2026-10-09T11:44:00+09:00,93,30,43,False,False
+evt-0087,tv-platform,0ffbfd5f1369,TV개발,Claude Code,dev-16,2026-10-09T13:24:00+09:00,2026-10-09T13:29:00+09:00,27,11,11,False,False
+evt-0088,tv-platform,54801a23d423,TV개발,Human,dev-11,2026-10-09T15:57:00+09:00,2026-10-09T16:02:00+09:00,149,96,0,False,False
+evt-0089,tv-app,7d608a4dd3ac,TV개발,Claude Code,dev-09,2026-10-09T09:43:00+09:00,2026-10-09T09:48:00+09:00,118,7,61,False,False
+evt-0090,tv-app,a031e486f1b6,TV개발,Cline,dev-05,2026-10-09T11:51:00+09:00,2026-10-09T11:56:00+09:00,460,115,157,False,False
+evt-0091,tv-app,a2ffc66e4fb4,TV개발,Claude Code,dev-18,2026-10-09T13:03:00+09:00,2026-10-09T13:08:00+09:00,18,95,11,False,False
+evt-0092,platform-api,dd16c24beb97,공통플랫폼,Claude Code,dev-15,2026-10-09T09:49:00+09:00,2026-10-09T09:54:00+09:00,165,30,89,False,False
+evt-0093,platform-api,670e21e26b58,공통플랫폼,Claude Code,dev-22,2026-10-09T11:45:00+09:00,2026-10-09T11:50:00+09:00,160,68,92,False,False
+evt-0094,developer-tools,bc17e626a391,공통플랫폼,Claude Code,dev-12,2026-10-09T09:28:00+09:00,2026-10-09T09:33:00+09:00,235,117,139,False,False
+evt-0095,developer-tools,bcec69b09530,공통플랫폼,Claude Code,dev-14,2026-10-09T11:15:00+09:00,2026-10-09T11:20:00+09:00,174,13,118,False,False
+evt-0096,developer-tools,984c57d826e8,공통플랫폼,Claude Code,dev-07,2026-10-09T13:29:00+09:00,2026-10-09T13:34:00+09:00,443,1,362,False,False
+evt-0097,developer-tools,52fef4abcde9,공통플랫폼,Claude Code,dev-03,2026-10-09T15:58:00+09:00,2026-10-09T16:03:00+09:00,418,130,324,False,False
+evt-0098,developer-tools,3452af3368f8,공통플랫폼,Human,dev-09,2026-10-09T17:58:00+09:00,2026-10-09T18:03:00+09:00,164,35,0,False,False
+evt-0099,mobile-core,c91245c54db4,모바일개발,Claude Code,dev-04,2026-10-10T09:17:00+09:00,2026-10-10T09:22:00+09:00,435,95,319,False,False
+evt-0100,mobile-ui,34846ea8659f,모바일개발,Claude Code,dev-11,2026-10-10T09:48:00+09:00,2026-10-10T09:53:00+09:00,435,62,224,False,False
+evt-0101,tv-platform,fba61b906e36,TV개발,Claude Code,dev-09,2026-10-10T09:36:00+09:00,2026-10-10T09:41:00+09:00,311,111,140,False,False
+evt-0102,tv-app,82574f0911c0,TV개발,Cline,dev-02,2026-10-10T09:34:00+09:00,2026-10-10T09:39:00+09:00,23,55,12,False,False
+evt-0103,platform-api,2b9cd2be0f6d,공통플랫폼,Claude Code,dev-18,2026-10-10T09:49:00+09:00,2026-10-10T09:54:00+09:00,97,31,75,False,False
+evt-0104,developer-tools,c268105079c9,공통플랫폼,Claude Code,dev-24,2026-10-10T09:42:00+09:00,2026-10-10T09:47:00+09:00,235,125,177,False,False
+evt-0105,mobile-core,15b9914a4f30,모바일개발,Cline,dev-05,2026-10-11T09:27:00+09:00,2026-10-11T09:32:00+09:00,150,36,90,False,False
+evt-0106,mobile-ui,b79c512cbfdb,모바일개발,Claude Code,dev-05,2026-10-11T09:45:00+09:00,2026-10-11T09:50:00+09:00,444,129,323,False,False
+evt-0107,tv-platform,31ff7b4c0abc,TV개발,Human,dev-18,2026-10-11T09:09:00+09:00,2026-10-11T09:14:00+09:00,190,72,0,False,False
+evt-0108,tv-app,661e4a8a61fc,TV개발,Cline,dev-22,2026-10-11T09:48:00+09:00,2026-10-11T09:53:00+09:00,325,52,105,False,False
+evt-0109,platform-api,9fd8c00253c9,공통플랫폼,Claude Code,dev-05,2026-10-11T09:45:00+09:00,2026-10-11T09:50:00+09:00,399,19,296,False,False
+evt-0110,developer-tools,b6beb0320646,공통플랫폼,Cline,dev-13,2026-10-11T09:20:00+09:00,2026-10-11T09:25:00+09:00,462,42,302,False,False
+evt-0111,mobile-core,f0e09efbad44,모바일개발,Claude Code,dev-05,2026-10-12T09:20:00+09:00,2026-10-12T09:25:00+09:00,83,18,56,False,False
+evt-0112,mobile-core,843d6abd1282,모바일개발,Human,dev-11,2026-10-12T11:52:00+09:00,2026-10-12T11:57:00+09:00,142,59,0,False,False
+evt-0113,mobile-core,9d0d29ce11f6,모바일개발,Claude Code,dev-13,2026-10-12T13:01:00+09:00,2026-10-12T13:06:00+09:00,274,65,225,False,False
+evt-0114,mobile-core,c59a5c91525d,모바일개발,Claude Code,dev-22,2026-10-12T15:46:00+09:00,2026-10-12T15:51:00+09:00,276,35,171,False,False
+evt-0115,mobile-core,764d5c5286f5,모바일개발,Cline,dev-22,2026-10-12T17:13:00+09:00,2026-10-12T17:18:00+09:00,259,26,184,False,False
+evt-0116,mobile-ui,40d1e7ae5598,모바일개발,Claude Code,dev-03,2026-10-12T09:52:00+09:00,2026-10-12T09:57:00+09:00,257,65,170,False,False
+evt-0117,mobile-ui,214e8ddf92ab,모바일개발,Claude Code,dev-10,2026-10-12T11:27:00+09:00,2026-10-12T11:32:00+09:00,218,122,134,False,False
+evt-0118,mobile-ui,1aa2eb3ec484,모바일개발,Claude Code,dev-22,2026-10-12T13:59:00+09:00,2026-10-12T14:04:00+09:00,475,44,288,False,False
+evt-0119,mobile-ui,2b60518410aa,모바일개발,Cline,dev-13,2026-10-12T15:01:00+09:00,2026-10-12T15:06:00+09:00,276,114,140,False,False
+evt-0120,mobile-ui,47349e57fe64,모바일개발,Claude Code,dev-24,2026-10-12T17:58:00+09:00,2026-10-12T18:03:00+09:00,476,118,290,False,False
+evt-0121,tv-platform,95d26360675b,TV개발,Human,dev-15,2026-10-12T09:36:00+09:00,2026-10-12T09:41:00+09:00,123,11,0,False,False
+evt-0122,tv-platform,53bcae4e0bb6,TV개발,Claude Code,dev-20,2026-10-12T11:40:00+09:00,2026-10-12T11:45:00+09:00,130,6,43,False,False
+evt-0123,tv-platform,eeb6c089958b,TV개발,Claude Code,dev-08,2026-10-12T13:13:00+09:00,2026-10-12T13:18:00+09:00,431,2,170,False,False
+evt-0124,tv-platform,bcfdcf7445d6,TV개발,Claude Code,dev-17,2026-10-12T15:23:00+09:00,2026-10-12T15:28:00+09:00,216,97,121,False,False
+evt-0125,tv-platform,06370eb4f7ec,TV개발,Claude Code,dev-08,2026-10-12T17:43:00+09:00,2026-10-12T17:48:00+09:00,145,65,61,False,False
+evt-0126,tv-app,308baf593436,TV개발,Claude Code,dev-08,2026-10-12T09:00:00+09:00,2026-10-12T09:05:00+09:00,126,94,68,False,False
+evt-0127,tv-app,f78839e82e79,TV개발,Claude Code,dev-08,2026-10-12T11:20:00+09:00,2026-10-12T11:25:00+09:00,111,108,55,False,False
+evt-0128,tv-app,124be3c6ee3a,TV개발,Claude Code,dev-07,2026-10-12T13:13:00+09:00,2026-10-12T13:18:00+09:00,419,17,179,False,False
+evt-0129,tv-app,a72f28423204,TV개발,Cline,dev-02,2026-10-12T15:48:00+09:00,2026-10-12T15:53:00+09:00,320,92,146,False,False
+evt-0130,tv-app,62e5ddd9725b,TV개발,Human,dev-22,2026-10-12T17:04:00+09:00,2026-10-12T17:09:00+09:00,167,44,0,False,False
+evt-0131,platform-api,177b3021c82f,공통플랫폼,Claude Code,dev-12,2026-10-12T09:48:00+09:00,2026-10-12T09:53:00+09:00,145,85,80,False,False
+evt-0132,platform-api,df289891bc94,공통플랫폼,Human,dev-15,2026-10-12T11:18:00+09:00,2026-10-12T11:23:00+09:00,198,34,0,False,False
+evt-0133,platform-api,ce298d199d13,공통플랫폼,Cline,dev-24,2026-10-12T13:28:00+09:00,2026-10-12T13:33:00+09:00,165,60,106,False,False
+evt-0134,developer-tools,8718493841d0,공통플랫폼,Claude Code,dev-01,2026-10-12T09:22:00+09:00,2026-10-12T09:27:00+09:00,442,60,282,False,False
+evt-0135,developer-tools,63e65bb9faf1,공통플랫폼,Claude Code,dev-20,2026-10-12T11:08:00+09:00,2026-10-12T11:13:00+09:00,402,52,257,False,False
+evt-0136,developer-tools,e2fc6f89eb92,공통플랫폼,Claude Code,dev-10,2026-10-12T13:28:00+09:00,2026-10-12T13:33:00+09:00,187,119,155,False,False
+evt-0137,mobile-core,672a75d1430d,모바일개발,Claude Code,dev-04,2026-10-13T09:44:00+09:00,2026-10-13T09:49:00+09:00,322,32,250,False,False
+evt-0138,mobile-core,ca9454954333,모바일개발,Claude Code,dev-19,2026-10-13T11:53:00+09:00,2026-10-13T11:58:00+09:00,249,3,155,False,False
+evt-0139,mobile-core,b1810af68d03,모바일개발,Claude Code,dev-24,2026-10-13T13:21:00+09:00,2026-10-13T13:26:00+09:00,293,11,188,False,False
+evt-0140,mobile-ui,919a8550d552,모바일개발,Cline,dev-04,2026-10-13T09:10:00+09:00,2026-10-13T09:15:00+09:00,457,37,273,False,False
+evt-0141,mobile-ui,f5218deeafc9,모바일개발,Claude Code,dev-08,2026-10-13T11:03:00+09:00,2026-10-13T11:08:00+09:00,398,110,186,False,False
+evt-0142,mobile-ui,e441448137d9,모바일개발,Claude Code,dev-15,2026-10-13T13:23:00+09:00,2026-10-13T13:28:00+09:00,477,73,311,False,False
+evt-0143,mobile-ui,a7cae8c9b2af,모바일개발,Claude Code,dev-24,2026-10-13T15:14:00+09:00,2026-10-13T15:19:00+09:00,373,102,279,False,False
+evt-0144,mobile-ui,8a9b258ef5f1,모바일개발,Claude Code,dev-21,2026-10-13T17:33:00+09:00,2026-10-13T17:38:00+09:00,224,56,115,False,False
+evt-0145,tv-platform,38b094ff8f79,TV개발,Cline,dev-09,2026-10-13T09:25:00+09:00,2026-10-13T09:30:00+09:00,96,65,59,False,False
+evt-0146,tv-platform,08898f7db5a9,TV개발,Claude Code,dev-06,2026-10-13T11:33:00+09:00,2026-10-13T11:38:00+09:00,386,15,119,False,False
+evt-0147,tv-app,04ae6365f90b,TV개발,Claude Code,dev-15,2026-10-13T09:37:00+09:00,2026-10-13T09:42:00+09:00,351,91,237,False,False
+evt-0148,tv-app,297a45ca055f,TV개발,Cline,dev-03,2026-10-13T11:22:00+09:00,2026-10-13T11:27:00+09:00,323,106,181,False,False
+evt-0149,tv-app,3986040e1861,TV개발,Claude Code,dev-03,2026-10-13T13:36:00+09:00,2026-10-13T13:41:00+09:00,149,127,67,False,False
+evt-0150,tv-app,f60d98b63e1d,TV개발,Claude Code,dev-16,2026-10-13T15:11:00+09:00,2026-10-13T15:16:00+09:00,206,74,117,False,False
+evt-0151,platform-api,e42eb2c7f88f,공통플랫폼,Claude Code,dev-22,2026-10-13T09:47:00+09:00,2026-10-13T09:52:00+09:00,351,2,204,False,False
+evt-0152,platform-api,f9c1f69528b6,공통플랫폼,Claude Code,dev-02,2026-10-13T11:07:00+09:00,2026-10-13T11:12:00+09:00,169,6,97,False,False
+evt-0153,platform-api,904da879afa3,공통플랫폼,Claude Code,dev-02,2026-10-13T13:16:00+09:00,2026-10-13T13:21:00+09:00,284,89,231,False,False
+evt-0154,developer-tools,c7d213236b91,공통플랫폼,Cline,dev-12,2026-10-13T09:18:00+09:00,2026-10-13T09:23:00+09:00,344,26,248,False,False
+evt-0155,developer-tools,adfcfe99a1d8,공통플랫폼,Claude Code,dev-16,2026-10-13T11:29:00+09:00,2026-10-13T11:34:00+09:00,19,24,13,False,False
+evt-0156,developer-tools,2e286139e071,공통플랫폼,Cline,dev-14,2026-10-13T13:17:00+09:00,2026-10-13T13:22:00+09:00,56,116,49,False,False
+evt-0157,developer-tools,77171bc7bfbe,공통플랫폼,Claude Code,dev-02,2026-10-13T15:47:00+09:00,2026-10-13T15:52:00+09:00,381,76,261,False,False
+evt-0158,developer-tools,44956a62b9be,공통플랫폼,Cline,dev-01,2026-10-13T17:22:00+09:00,2026-10-13T17:27:00+09:00,34,16,20,False,False
+evt-0159,mobile-core,e0f54ac20930,모바일개발,Claude Code,dev-13,2026-10-14T09:13:00+09:00,2026-10-14T09:18:00+09:00,290,1,159,False,False
+evt-0160,mobile-core,f5796dad5848,모바일개발,Cline,dev-12,2026-10-14T11:13:00+09:00,2026-10-14T11:18:00+09:00,402,106,266,False,False
+evt-0161,mobile-core,f2a5afc1161e,모바일개발,Cline,dev-11,2026-10-14T13:37:00+09:00,2026-10-14T13:42:00+09:00,312,38,155,False,False
+evt-0162,mobile-core,3ce4942d2931,모바일개발,Claude Code,dev-22,2026-10-14T15:22:00+09:00,2026-10-14T15:27:00+09:00,97,121,77,False,False
+evt-0163,mobile-ui,e0aa1253b420,모바일개발,Claude Code,dev-08,2026-10-14T09:07:00+09:00,2026-10-14T09:12:00+09:00,119,89,62,False,False
+evt-0164,mobile-ui,a65b78712e2c,모바일개발,Claude Code,dev-13,2026-10-14T11:09:00+09:00,2026-10-14T11:14:00+09:00,66,130,43,False,False
+evt-0165,tv-platform,56f317192dd2,TV개발,Claude Code,dev-20,2026-10-14T09:54:00+09:00,2026-10-14T09:59:00+09:00,404,81,176,False,False
+evt-0166,tv-platform,568b61e257fd,TV개발,Claude Code,dev-20,2026-10-14T11:32:00+09:00,2026-10-14T11:37:00+09:00,421,65,194,False,False
+evt-0167,tv-platform,da558e4e38af,TV개발,Cline,dev-20,2026-10-14T13:30:00+09:00,2026-10-14T13:35:00+09:00,422,121,184,False,False
+evt-0168,tv-app,c99e03b28ffc,TV개발,Claude Code,dev-21,2026-10-14T09:44:00+09:00,2026-10-14T09:49:00+09:00,431,88,154,False,False
+evt-0169,tv-app,65622db64a65,TV개발,Claude Code,dev-01,2026-10-14T11:27:00+09:00,2026-10-14T11:32:00+09:00,451,82,282,False,False
+evt-0170,platform-api,ab480aca2e75,공통플랫폼,Human,dev-07,2026-10-14T09:58:00+09:00,2026-10-14T10:03:00+09:00,168,40,0,False,False
+evt-0171,platform-api,eb1e5ccfc9fa,공통플랫폼,Claude Code,dev-14,2026-10-14T11:10:00+09:00,2026-10-14T11:15:00+09:00,467,83,268,False,False
+evt-0172,platform-api,3f0271e0c3bf,공통플랫폼,Claude Code,dev-03,2026-10-14T13:06:00+09:00,2026-10-14T13:11:00+09:00,364,27,279,False,False
+evt-0173,developer-tools,e4f111725807,공통플랫폼,Claude Code,dev-17,2026-10-14T09:46:00+09:00,2026-10-14T09:51:00+09:00,125,121,108,False,False
+evt-0174,developer-tools,e6f12762a04d,공통플랫폼,Cline,dev-14,2026-10-14T11:13:00+09:00,2026-10-14T11:18:00+09:00,240,104,152,False,False
+evt-0175,developer-tools,79d4a68d10a2,공통플랫폼,Claude Code,dev-17,2026-10-14T13:05:00+09:00,2026-10-14T13:10:00+09:00,147,78,87,False,False
+evt-0176,mobile-core,f176e39519a2,모바일개발,Cline,dev-16,2026-10-15T09:26:00+09:00,2026-10-15T09:31:00+09:00,315,115,222,False,False
+evt-0177,mobile-core,2539683b0e36,모바일개발,Claude Code,dev-17,2026-10-15T11:59:00+09:00,2026-10-15T12:04:00+09:00,457,77,326,False,False
+evt-0178,mobile-ui,baeac4a5d453,모바일개발,Claude Code,dev-06,2026-10-15T09:59:00+09:00,2026-10-15T10:04:00+09:00,458,44,239,False,False
+evt-0179,mobile-ui,bbfc25bd173a,모바일개발,Claude Code,dev-18,2026-10-15T11:34:00+09:00,2026-10-15T11:39:00+09:00,78,80,47,False,False
+evt-0180,mobile-ui,a5a2c25b7d4f,모바일개발,Claude Code,dev-23,2026-10-15T13:10:00+09:00,2026-10-15T13:15:00+09:00,391,65,187,False,False
+evt-0181,mobile-ui,53eb9312d308,모바일개발,Claude Code,dev-19,2026-10-15T15:28:00+09:00,2026-10-15T15:33:00+09:00,138,64,71,False,False
+evt-0182,tv-platform,029f36f5ebd3,TV개발,Claude Code,dev-15,2026-10-15T09:19:00+09:00,2026-10-15T09:24:00+09:00,150,62,94,False,False
+evt-0183,tv-platform,67678e95ba10,TV개발,Claude Code,dev-12,2026-10-15T11:44:00+09:00,2026-10-15T11:49:00+09:00,249,71,149,False,False
+evt-0184,tv-app,cad0f0ad0658,TV개발,Claude Code,dev-23,2026-10-15T09:26:00+09:00,2026-10-15T09:31:00+09:00,479,99,192,False,False
+evt-0185,tv-app,5587153c9eb0,TV개발,Claude Code,dev-14,2026-10-15T11:40:00+09:00,2026-10-15T11:45:00+09:00,175,72,78,False,False
+evt-0186,tv-app,7dfbeec3cd97,TV개발,Cline,dev-08,2026-10-15T13:52:00+09:00,2026-10-15T13:57:00+09:00,413,35,280,False,False
+evt-0187,tv-app,aa6bcd237fc8,TV개발,Claude Code,dev-11,2026-10-15T15:11:00+09:00,2026-10-15T15:16:00+09:00,195,101,95,False,False
+evt-0188,platform-api,8c431437bf9b,공통플랫폼,Claude Code,dev-24,2026-10-15T09:17:00+09:00,2026-10-15T09:22:00+09:00,143,113,84,False,False
+evt-0189,platform-api,4f6762e54d6f,공통플랫폼,Claude Code,dev-21,2026-10-15T11:20:00+09:00,2026-10-15T11:25:00+09:00,360,10,258,False,False
+evt-0190,platform-api,1902731c3cf1,공통플랫폼,Claude Code,dev-16,2026-10-15T13:55:00+09:00,2026-10-15T14:00:00+09:00,91,32,76,False,False
+evt-0191,developer-tools,43f17a5a3e57,공통플랫폼,Claude Code,dev-23,2026-10-15T09:08:00+09:00,2026-10-15T09:13:00+09:00,320,15,260,False,False
+evt-0192,developer-tools,f8eb711e7776,공통플랫폼,Claude Code,dev-12,2026-10-15T11:49:00+09:00,2026-10-15T11:54:00+09:00,149,116,100,False,False
+evt-0193,developer-tools,d34a2c91a04b,공통플랫폼,Human,dev-17,2026-10-15T13:02:00+09:00,2026-10-15T13:07:00+09:00,124,10,0,False,False
+evt-0194,developer-tools,962289285aac,공통플랫폼,Claude Code,dev-20,2026-10-15T15:10:00+09:00,2026-10-15T15:15:00+09:00,477,111,331,False,False
+evt-0195,developer-tools,0103d47e062f,공통플랫폼,Claude Code,dev-04,2026-10-15T17:19:00+09:00,2026-10-15T17:24:00+09:00,176,15,122,False,False
+evt-0196,mobile-core,9ca3fca4edb6,모바일개발,Cline,dev-01,2026-10-16T09:37:00+09:00,2026-10-16T09:42:00+09:00,274,90,194,False,False
+evt-0197,mobile-core,f5b069de167f,모바일개발,Claude Code,dev-01,2026-10-16T11:02:00+09:00,2026-10-16T11:07:00+09:00,25,42,13,False,False
+evt-0198,mobile-core,391999b8a6c4,모바일개발,Claude Code,dev-01,2026-10-16T13:01:00+09:00,2026-10-16T13:06:00+09:00,68,89,46,False,False
+evt-0199,mobile-core,d59ddbcf9efd,모바일개발,Claude Code,dev-16,2026-10-16T15:29:00+09:00,2026-10-16T15:34:00+09:00,461,23,280,False,False
+evt-0200,mobile-ui,36b1d2646d7a,모바일개발,Cline,dev-07,2026-10-16T09:24:00+09:00,2026-10-16T09:29:00+09:00,223,85,127,False,False
+evt-0201,mobile-ui,956531fd8c95,모바일개발,Cline,dev-19,2026-10-16T11:33:00+09:00,2026-10-16T11:38:00+09:00,477,56,353,False,False
+evt-0202,mobile-ui,a57b32c65b6c,모바일개발,Human,dev-24,2026-10-16T13:24:00+09:00,2026-10-16T13:29:00+09:00,134,43,0,False,False
+evt-0203,mobile-ui,4fd57e34adca,모바일개발,Claude Code,dev-03,2026-10-16T15:33:00+09:00,2026-10-16T15:38:00+09:00,304,121,164,False,False
+evt-0204,tv-platform,2bc77a2783d2,TV개발,Claude Code,dev-22,2026-10-16T09:01:00+09:00,2026-10-16T09:06:00+09:00,449,28,214,False,False
+evt-0205,tv-platform,dc92031f9b0f,TV개발,Claude Code,dev-19,2026-10-16T11:12:00+09:00,2026-10-16T11:17:00+09:00,298,103,162,False,False
+evt-0206,tv-platform,5d658786510e,TV개발,Human,dev-19,2026-10-16T13:25:00+09:00,2026-10-16T13:30:00+09:00,437,110,0,False,False
+evt-0207,tv-platform,3cb29268f431,TV개발,Claude Code,dev-03,2026-10-16T15:10:00+09:00,2026-10-16T15:15:00+09:00,112,81,68,False,False
+evt-0208,tv-platform,3e42467d6e64,TV개발,Human,dev-19,2026-10-16T17:46:00+09:00,2026-10-16T17:51:00+09:00,179,63,0,False,False
+evt-0209,tv-app,d7a23b3a885c,TV개발,Claude Code,dev-05,2026-10-16T09:29:00+09:00,2026-10-16T09:34:00+09:00,262,89,103,False,False
+evt-0210,tv-app,90c0c3665d24,TV개발,Claude Code,dev-13,2026-10-16T11:23:00+09:00,2026-10-16T11:28:00+09:00,117,54,78,False,False
+evt-0211,tv-app,7eb3093746b7,TV개발,Claude Code,dev-17,2026-10-16T13:06:00+09:00,2026-10-16T13:11:00+09:00,80,3,40,False,False
+evt-0212,platform-api,a17ea93f03b8,공통플랫폼,Human,dev-04,2026-10-16T09:41:00+09:00,2026-10-16T09:46:00+09:00,78,85,0,False,False
+evt-0213,platform-api,3797037ddb82,공통플랫폼,Claude Code,dev-09,2026-10-16T11:08:00+09:00,2026-10-16T11:13:00+09:00,475,57,416,False,False
+evt-0214,platform-api,4fba8a920c72,공통플랫폼,Claude Code,dev-04,2026-10-16T13:47:00+09:00,2026-10-16T13:52:00+09:00,59,113,47,False,False
+evt-0215,platform-api,2e4639cb26e9,공통플랫폼,Claude Code,dev-24,2026-10-16T15:36:00+09:00,2026-10-16T15:41:00+09:00,373,5,334,False,False
+evt-0216,developer-tools,cdece5d1ff8d,공통플랫폼,Claude Code,dev-12,2026-10-16T09:09:00+09:00,2026-10-16T09:14:00+09:00,31,40,21,False,False
+evt-0217,developer-tools,92e3e3cce8c2,공통플랫폼,Cline,dev-09,2026-10-16T11:01:00+09:00,2026-10-16T11:06:00+09:00,428,112,387,False,False
+evt-0218,developer-tools,79a1fd898295,공통플랫폼,Claude Code,dev-02,2026-10-16T13:28:00+09:00,2026-10-16T13:33:00+09:00,286,127,216,False,False
+evt-0219,mobile-core,42339bab4302,모바일개발,Claude Code,dev-07,2026-10-17T09:41:00+09:00,2026-10-17T09:46:00+09:00,413,114,324,False,False
+evt-0220,mobile-ui,a4c592b56204,모바일개발,Claude Code,dev-18,2026-10-17T09:30:00+09:00,2026-10-17T09:35:00+09:00,309,92,215,False,False
+evt-0221,tv-platform,cd324cfee780,TV개발,Claude Code,dev-18,2026-10-17T09:38:00+09:00,2026-10-17T09:43:00+09:00,476,65,251,False,False
+evt-0222,tv-app,8302a4b152f6,TV개발,Claude Code,dev-15,2026-10-17T09:28:00+09:00,2026-10-17T09:33:00+09:00,350,103,211,False,False
+evt-0223,platform-api,d9830b54e094,공통플랫폼,Claude Code,dev-22,2026-10-17T09:48:00+09:00,2026-10-17T09:53:00+09:00,397,103,253,False,False
+evt-0224,developer-tools,b2b8cb9b901d,공통플랫폼,Cline,dev-06,2026-10-17T09:56:00+09:00,2026-10-17T10:01:00+09:00,163,23,143,False,False
+evt-0225,mobile-core,e700adb6f6b4,모바일개발,Cline,dev-16,2026-10-18T09:27:00+09:00,2026-10-18T09:32:00+09:00,182,54,122,False,False
+evt-0226,mobile-ui,ae1e5ddf28b2,모바일개발,Human,dev-15,2026-10-18T09:44:00+09:00,2026-10-18T09:49:00+09:00,114,60,0,False,False
+evt-0227,tv-platform,67362c23edb0,TV개발,Cline,dev-08,2026-10-18T09:04:00+09:00,2026-10-18T09:09:00+09:00,50,109,15,False,False
+evt-0228,tv-app,d47dd8904ef2,TV개발,Claude Code,dev-02,2026-10-18T09:14:00+09:00,2026-10-18T09:19:00+09:00,113,125,80,False,False
+evt-0229,platform-api,d6873abe1330,공통플랫폼,Claude Code,dev-07,2026-10-18T09:50:00+09:00,2026-10-18T09:55:00+09:00,299,38,219,False,False
+evt-0230,developer-tools,8b376a7dc95e,공통플랫폼,Human,dev-08,2026-10-18T09:05:00+09:00,2026-10-18T09:10:00+09:00,374,5,0,False,False
+evt-0231,mobile-core,733b325555ba,모바일개발,Cline,dev-17,2026-10-19T09:33:00+09:00,2026-10-19T09:38:00+09:00,378,128,201,False,False
+evt-0232,mobile-core,8f4eb11df0f4,모바일개발,Cline,dev-02,2026-10-19T11:35:00+09:00,2026-10-19T11:40:00+09:00,186,60,131,False,False
+evt-0233,mobile-ui,8b7758ccf379,모바일개발,Cline,dev-11,2026-10-19T09:21:00+09:00,2026-10-19T09:26:00+09:00,360,76,208,False,False
+evt-0234,mobile-ui,ff15d0f055c9,모바일개발,Cline,dev-24,2026-10-19T11:13:00+09:00,2026-10-19T11:18:00+09:00,220,35,169,False,False
+evt-0235,mobile-ui,8e721b559cf1,모바일개발,Claude Code,dev-06,2026-10-19T13:12:00+09:00,2026-10-19T13:17:00+09:00,321,121,204,False,False
+evt-0236,tv-platform,c8631448f727,TV개발,Claude Code,dev-22,2026-10-19T09:33:00+09:00,2026-10-19T09:38:00+09:00,85,24,32,False,False
+evt-0237,tv-platform,760a5676a23b,TV개발,Claude Code,dev-07,2026-10-19T11:34:00+09:00,2026-10-19T11:39:00+09:00,260,40,112,False,False
+evt-0238,tv-app,669dac184ea9,TV개발,Claude Code,dev-23,2026-10-19T09:24:00+09:00,2026-10-19T09:29:00+09:00,184,113,110,False,False
+evt-0239,tv-app,749e9a272c97,TV개발,Claude Code,dev-19,2026-10-19T11:42:00+09:00,2026-10-19T11:47:00+09:00,408,125,262,False,False
+evt-0240,platform-api,442e8aee80d7,공통플랫폼,Claude Code,dev-24,2026-10-19T09:42:00+09:00,2026-10-19T09:47:00+09:00,181,80,101,False,False
+evt-0241,platform-api,c61c6825fc98,공통플랫폼,Claude Code,dev-07,2026-10-19T11:00:00+09:00,2026-10-19T11:05:00+09:00,355,7,267,False,False
+evt-0242,platform-api,5299be3f97a5,공통플랫폼,Claude Code,dev-23,2026-10-19T13:37:00+09:00,2026-10-19T13:42:00+09:00,210,101,122,False,False
+evt-0243,platform-api,5ebfff2422d8,공통플랫폼,Claude Code,dev-11,2026-10-19T15:46:00+09:00,2026-10-19T15:51:00+09:00,157,34,129,False,False
+evt-0244,platform-api,369801c18861,공통플랫폼,Cline,dev-09,2026-10-19T17:59:00+09:00,2026-10-19T18:04:00+09:00,357,9,248,False,False
+evt-0245,developer-tools,ad584a4f54c2,공통플랫폼,Claude Code,dev-15,2026-10-19T09:38:00+09:00,2026-10-19T09:43:00+09:00,355,90,285,False,False
+evt-0246,developer-tools,f1f2eb22f4e3,공통플랫폼,Claude Code,dev-12,2026-10-19T11:32:00+09:00,2026-10-19T11:37:00+09:00,447,70,314,False,False
+evt-0247,mobile-core,008c5288af69,모바일개발,Human,dev-16,2026-10-20T09:38:00+09:00,2026-10-20T09:43:00+09:00,292,15,0,False,False
+evt-0248,mobile-core,dfbc6062e87c,모바일개발,Claude Code,dev-18,2026-10-20T11:07:00+09:00,2026-10-20T11:12:00+09:00,54,34,28,False,False
+evt-0249,mobile-ui,30f1b9d0257a,모바일개발,Claude Code,dev-19,2026-10-20T09:24:00+09:00,2026-10-20T09:29:00+09:00,405,81,251,False,False
+evt-0250,mobile-ui,11f74e13e81f,모바일개발,Claude Code,dev-04,2026-10-20T11:23:00+09:00,2026-10-20T11:28:00+09:00,76,7,39,False,False
+evt-0251,tv-platform,bf56b029d04c,TV개발,Claude Code,dev-16,2026-10-20T09:00:00+09:00,2026-10-20T09:05:00+09:00,284,89,186,False,False
+evt-0252,tv-platform,09a4de3227fb,TV개발,Claude Code,dev-04,2026-10-20T11:09:00+09:00,2026-10-20T11:14:00+09:00,256,9,153,False,False
+evt-0253,tv-platform,16c35cd7d29a,TV개발,Human,dev-03,2026-10-20T13:43:00+09:00,2026-10-20T13:48:00+09:00,415,11,0,False,False
+evt-0254,tv-platform,17a6af000378,TV개발,Claude Code,dev-10,2026-10-20T15:01:00+09:00,2026-10-20T15:06:00+09:00,143,107,46,False,False
+evt-0255,tv-app,9bc33236d1d9,TV개발,Claude Code,dev-08,2026-10-20T09:46:00+09:00,2026-10-20T09:51:00+09:00,368,53,212,False,False
+evt-0256,tv-app,80d80985ecb7,TV개발,Claude Code,dev-01,2026-10-20T11:44:00+09:00,2026-10-20T11:49:00+09:00,288,71,148,False,False
+evt-0257,platform-api,6fc3830e8e6a,공통플랫폼,Claude Code,dev-14,2026-10-20T09:12:00+09:00,2026-10-20T09:17:00+09:00,231,52,134,False,False
+evt-0258,platform-api,d2e676a4e514,공통플랫폼,Cline,dev-13,2026-10-20T11:21:00+09:00,2026-10-20T11:26:00+09:00,171,5,123,False,False
+evt-0259,developer-tools,01f2fd5234ff,공통플랫폼,Claude Code,dev-05,2026-10-20T09:53:00+09:00,2026-10-20T09:58:00+09:00,407,52,383,False,False
+evt-0260,developer-tools,617807dadabb,공통플랫폼,Claude Code,dev-20,2026-10-20T11:48:00+09:00,2026-10-20T11:53:00+09:00,272,126,255,False,False
+evt-0261,developer-tools,b2cd000ac565,공통플랫폼,Claude Code,dev-19,2026-10-20T13:58:00+09:00,2026-10-20T14:03:00+09:00,231,45,153,False,False
+evt-0262,mobile-core,b5476332402d,모바일개발,Claude Code,dev-20,2026-10-21T09:33:00+09:00,2026-10-21T09:38:00+09:00,327,104,232,False,False
+evt-0263,mobile-core,84e29634d513,모바일개발,Claude Code,dev-23,2026-10-21T11:20:00+09:00,2026-10-21T11:25:00+09:00,332,74,205,False,False
+evt-0264,mobile-ui,0e8ddfb01285,모바일개발,Cline,dev-22,2026-10-21T09:32:00+09:00,2026-10-21T09:37:00+09:00,109,65,68,False,False
+evt-0265,mobile-ui,6f9c83650ebf,모바일개발,Claude Code,dev-07,2026-10-21T11:43:00+09:00,2026-10-21T11:48:00+09:00,469,5,207,False,False
+evt-0266,tv-platform,383d7a4d9a2e,TV개발,Cline,dev-15,2026-10-21T09:36:00+09:00,2026-10-21T09:41:00+09:00,477,129,162,False,False
+evt-0267,tv-platform,2846bf3cb3c7,TV개발,Cline,dev-03,2026-10-21T11:43:00+09:00,2026-10-21T11:48:00+09:00,401,31,179,False,False
+evt-0268,tv-platform,2045a55ebfd0,TV개발,Cline,dev-15,2026-10-21T13:48:00+09:00,2026-10-21T13:53:00+09:00,340,24,201,False,False
+evt-0269,tv-platform,fd8d4c5021d4,TV개발,Claude Code,dev-21,2026-10-21T15:46:00+09:00,2026-10-21T15:51:00+09:00,183,31,97,False,False
+evt-0270,tv-platform,596689ca273a,TV개발,Claude Code,dev-09,2026-10-21T17:39:00+09:00,2026-10-21T17:44:00+09:00,467,123,298,False,False
+evt-0271,tv-app,85d6fab36e6b,TV개발,Claude Code,dev-22,2026-10-21T09:47:00+09:00,2026-10-21T09:52:00+09:00,474,36,258,False,False
+evt-0272,tv-app,66be469c7bee,TV개발,Claude Code,dev-01,2026-10-21T11:02:00+09:00,2026-10-21T11:07:00+09:00,90,89,42,False,False
+evt-0273,tv-app,01102b330e74,TV개발,Claude Code,dev-19,2026-10-21T13:43:00+09:00,2026-10-21T13:48:00+09:00,317,63,164,False,False
+evt-0274,tv-app,5d547baf415d,TV개발,Cline,dev-11,2026-10-21T15:45:00+09:00,2026-10-21T15:50:00+09:00,318,92,117,False,False
+evt-0275,platform-api,13324f17ecc5,공통플랫폼,Cline,dev-06,2026-10-21T09:54:00+09:00,2026-10-21T09:59:00+09:00,380,28,339,False,False
+evt-0276,platform-api,bd6279795329,공통플랫폼,Claude Code,dev-02,2026-10-21T11:22:00+09:00,2026-10-21T11:27:00+09:00,161,33,103,False,False
+evt-0277,platform-api,7704a7e1d7a4,공통플랫폼,Claude Code,dev-06,2026-10-21T13:00:00+09:00,2026-10-21T13:05:00+09:00,126,130,81,False,False
+evt-0278,platform-api,d1dbed35af3a,공통플랫폼,Cline,dev-17,2026-10-21T15:58:00+09:00,2026-10-21T16:03:00+09:00,298,129,189,False,False
+evt-0279,platform-api,489ea95f6930,공통플랫폼,Cline,dev-07,2026-10-21T17:37:00+09:00,2026-10-21T17:42:00+09:00,275,92,183,False,False
+evt-0280,developer-tools,549e17e12e06,공통플랫폼,Cline,dev-22,2026-10-21T09:49:00+09:00,2026-10-21T09:54:00+09:00,170,28,140,False,False
+evt-0281,developer-tools,4502a471c38f,공통플랫폼,Claude Code,dev-01,2026-10-21T11:54:00+09:00,2026-10-21T11:59:00+09:00,314,44,222,False,False
+evt-0282,developer-tools,05c1c9cb5f15,공통플랫폼,Cline,dev-21,2026-10-21T13:03:00+09:00,2026-10-21T13:08:00+09:00,429,33,310,False,False
+evt-0283,developer-tools,bef75f21140a,공통플랫폼,Claude Code,dev-15,2026-10-21T15:51:00+09:00,2026-10-21T15:56:00+09:00,396,27,297,False,False
+evt-0284,developer-tools,d96b9baf7198,공통플랫폼,Human,dev-22,2026-10-21T17:14:00+09:00,2026-10-21T17:19:00+09:00,345,128,0,False,False
+evt-0285,mobile-core,ec6d5e8ac9e3,모바일개발,Claude Code,dev-19,2026-10-22T09:43:00+09:00,2026-10-22T09:48:00+09:00,139,82,100,False,False
+evt-0286,mobile-core,7745778606ce,모바일개발,Claude Code,dev-07,2026-10-22T11:47:00+09:00,2026-10-22T11:52:00+09:00,397,105,212,False,False
+evt-0287,mobile-core,77a32af2d144,모바일개발,Claude Code,dev-24,2026-10-22T13:19:00+09:00,2026-10-22T13:24:00+09:00,328,23,174,False,False
+evt-0288,mobile-core,20fa1633ac5c,모바일개발,Claude Code,dev-22,2026-10-22T15:41:00+09:00,2026-10-22T15:46:00+09:00,193,81,120,False,False
+evt-0289,mobile-ui,ceae15a8e604,모바일개발,Claude Code,dev-16,2026-10-22T09:45:00+09:00,2026-10-22T09:50:00+09:00,355,10,189,False,False
+evt-0290,mobile-ui,db213d7eada1,모바일개발,Human,dev-19,2026-10-22T11:25:00+09:00,2026-10-22T11:30:00+09:00,135,16,0,False,False
+evt-0291,tv-platform,9b937f5e9806,TV개발,Claude Code,dev-12,2026-10-22T09:39:00+09:00,2026-10-22T09:44:00+09:00,203,32,93,False,False
+evt-0292,tv-platform,4d734365b96b,TV개발,Cline,dev-19,2026-10-22T11:59:00+09:00,2026-10-22T12:04:00+09:00,237,89,141,False,False
+evt-0293,tv-platform,c076c70bebea,TV개발,Claude Code,dev-21,2026-10-22T13:30:00+09:00,2026-10-22T13:35:00+09:00,117,11,66,False,False
+evt-0294,tv-platform,fa4f04fce949,TV개발,Claude Code,dev-08,2026-10-22T15:24:00+09:00,2026-10-22T15:29:00+09:00,313,128,156,False,False
+evt-0295,tv-platform,9e46c2eba6e3,TV개발,Claude Code,dev-02,2026-10-22T17:54:00+09:00,2026-10-22T17:59:00+09:00,172,84,98,False,False
+evt-0296,tv-app,6a74db633618,TV개발,Cline,dev-16,2026-10-22T09:16:00+09:00,2026-10-22T09:21:00+09:00,186,83,122,False,False
+evt-0297,tv-app,2b0aa5e6c385,TV개발,Claude Code,dev-12,2026-10-22T11:11:00+09:00,2026-10-22T11:16:00+09:00,431,98,188,False,False
+evt-0298,tv-app,dec8fcf501f9,TV개발,Human,dev-11,2026-10-22T13:53:00+09:00,2026-10-22T13:58:00+09:00,127,69,0,False,False
+evt-0299,platform-api,2e76bf3734eb,공통플랫폼,Claude Code,dev-03,2026-10-22T09:50:00+09:00,2026-10-22T09:55:00+09:00,114,120,68,False,False
+evt-0300,platform-api,a4b802d54458,공통플랫폼,Claude Code,dev-01,2026-10-22T11:23:00+09:00,2026-10-22T11:28:00+09:00,204,109,186,False,False
+evt-0301,developer-tools,a69062f71e73,공통플랫폼,Claude Code,dev-14,2026-10-22T09:00:00+09:00,2026-10-22T09:05:00+09:00,373,117,289,False,False
+evt-0302,developer-tools,067bb96a2215,공통플랫폼,Claude Code,dev-12,2026-10-22T11:59:00+09:00,2026-10-22T12:04:00+09:00,264,49,204,False,False
+evt-0303,developer-tools,dd04535933ee,공통플랫폼,Claude Code,dev-22,2026-10-22T13:12:00+09:00,2026-10-22T13:17:00+09:00,434,40,407,False,False
+evt-0304,developer-tools,db8c933972d3,공통플랫폼,Claude Code,dev-09,2026-10-22T15:21:00+09:00,2026-10-22T15:26:00+09:00,78,35,60,False,False
+evt-0305,developer-tools,d6bd732a5ae4,공통플랫폼,Claude Code,dev-05,2026-10-22T17:28:00+09:00,2026-10-22T17:33:00+09:00,346,50,253,False,False
+evt-0306,mobile-core,a4724e877eed,모바일개발,Human,dev-10,2026-10-23T09:42:00+09:00,2026-10-23T09:47:00+09:00,450,1,0,False,False
+evt-0307,mobile-core,c0ead7c204cf,모바일개발,Cline,dev-05,2026-10-23T11:37:00+09:00,2026-10-23T11:42:00+09:00,268,41,186,False,False
+evt-0308,mobile-core,720be7a0e4bb,모바일개발,Cline,dev-10,2026-10-23T13:00:00+09:00,2026-10-23T13:05:00+09:00,358,115,214,False,False
+evt-0309,mobile-core,415cd7edde81,모바일개발,Cline,dev-10,2026-10-23T15:30:00+09:00,2026-10-23T15:35:00+09:00,323,80,226,False,False
+evt-0310,mobile-core,6192b8de8da3,모바일개발,Claude Code,dev-15,2026-10-23T17:24:00+09:00,2026-10-23T17:29:00+09:00,346,12,205,False,False
+evt-0311,mobile-ui,b0e2cb4a36b5,모바일개발,Claude Code,dev-20,2026-10-23T09:23:00+09:00,2026-10-23T09:28:00+09:00,182,128,116,False,False
+evt-0312,mobile-ui,cd85a4a6f474,모바일개발,Claude Code,dev-15,2026-10-23T11:18:00+09:00,2026-10-23T11:23:00+09:00,439,0,256,False,False
+evt-0313,mobile-ui,ea09cff0d81d,모바일개발,Claude Code,dev-23,2026-10-23T13:34:00+09:00,2026-10-23T13:39:00+09:00,193,4,149,False,False
+evt-0314,tv-platform,358032001eec,TV개발,Claude Code,dev-22,2026-10-23T09:59:00+09:00,2026-10-23T10:04:00+09:00,281,10,111,False,False
+evt-0315,tv-platform,0d9f85e1bef4,TV개발,Claude Code,dev-02,2026-10-23T11:18:00+09:00,2026-10-23T11:23:00+09:00,293,63,120,False,False
+evt-0316,tv-app,fe950e51df97,TV개발,Cline,dev-09,2026-10-23T09:09:00+09:00,2026-10-23T09:14:00+09:00,250,1,168,False,False
+evt-0317,tv-app,6973078c9dc0,TV개발,Human,dev-07,2026-10-23T11:20:00+09:00,2026-10-23T11:25:00+09:00,380,78,0,False,False
+evt-0318,platform-api,09337681828b,공통플랫폼,Claude Code,dev-05,2026-10-23T09:37:00+09:00,2026-10-23T09:42:00+09:00,245,92,190,False,False
+evt-0319,platform-api,d7744d5eefe5,공통플랫폼,Human,dev-08,2026-10-23T11:42:00+09:00,2026-10-23T11:47:00+09:00,76,95,0,False,False
+evt-0320,platform-api,0a811a121ebe,공통플랫폼,Cline,dev-10,2026-10-23T13:30:00+09:00,2026-10-23T13:35:00+09:00,417,75,242,False,False
+evt-0321,platform-api,bc69132baf62,공통플랫폼,Claude Code,dev-08,2026-10-23T15:54:00+09:00,2026-10-23T15:59:00+09:00,165,71,99,False,False
+evt-0322,platform-api,cc72bf452c7e,공통플랫폼,Claude Code,dev-19,2026-10-23T17:28:00+09:00,2026-10-23T17:33:00+09:00,118,102,85,False,False
+evt-0323,developer-tools,e18e2e45ceb0,공통플랫폼,Claude Code,dev-11,2026-10-23T09:43:00+09:00,2026-10-23T09:48:00+09:00,43,70,35,False,False
+evt-0324,developer-tools,e39fc0e456ac,공통플랫폼,Claude Code,dev-16,2026-10-23T11:44:00+09:00,2026-10-23T11:49:00+09:00,265,107,212,False,False
+evt-0325,developer-tools,f6ab8bb89803,공통플랫폼,Claude Code,dev-19,2026-10-23T13:27:00+09:00,2026-10-23T13:32:00+09:00,102,48,82,False,False
+evt-0326,developer-tools,539efb706265,공통플랫폼,Human,dev-22,2026-10-23T15:34:00+09:00,2026-10-23T15:39:00+09:00,224,104,0,False,False
+evt-0327,developer-tools,d25d7b6b6869,공통플랫폼,Claude Code,dev-22,2026-10-23T17:59:00+09:00,2026-10-23T18:04:00+09:00,394,4,342,False,False
+evt-0328,mobile-core,d113e5236dc5,모바일개발,Cline,dev-12,2026-10-24T09:28:00+09:00,2026-10-24T09:33:00+09:00,195,26,116,False,False
+evt-0329,mobile-ui,8834297cde13,모바일개발,Cline,dev-02,2026-10-24T09:33:00+09:00,2026-10-24T09:38:00+09:00,332,18,219,False,False
+evt-0330,tv-platform,eec361c78456,TV개발,Cline,dev-08,2026-10-24T09:26:00+09:00,2026-10-24T09:31:00+09:00,427,68,185,False,False
+evt-0331,tv-app,59cbf24c78cd,TV개발,Cline,dev-17,2026-10-24T09:38:00+09:00,2026-10-24T09:43:00+09:00,175,0,126,False,False
+evt-0332,platform-api,2315bce1af51,공통플랫폼,Claude Code,dev-04,2026-10-24T09:06:00+09:00,2026-10-24T09:11:00+09:00,246,61,150,False,False
+evt-0333,developer-tools,cca525c6810d,공통플랫폼,Claude Code,dev-04,2026-10-24T09:05:00+09:00,2026-10-24T09:10:00+09:00,87,17,67,False,False
+evt-0334,mobile-core,4a0c9bcc12f8,모바일개발,Claude Code,dev-04,2026-10-25T09:17:00+09:00,2026-10-25T09:22:00+09:00,445,65,365,False,False
+evt-0335,mobile-ui,17f52a588ac0,모바일개발,Claude Code,dev-19,2026-10-25T09:59:00+09:00,2026-10-25T10:04:00+09:00,421,93,253,False,False
+evt-0336,tv-platform,891ecaf65ea8,TV개발,Cline,dev-14,2026-10-25T09:42:00+09:00,2026-10-25T09:47:00+09:00,431,36,228,False,False
+evt-0337,tv-app,bea66285810d,TV개발,Human,dev-18,2026-10-25T09:05:00+09:00,2026-10-25T09:10:00+09:00,180,85,0,False,False
+evt-0338,platform-api,828d82d9ccc1,공통플랫폼,Claude Code,dev-13,2026-10-25T09:59:00+09:00,2026-10-25T10:04:00+09:00,464,24,358,False,False
+evt-0339,developer-tools,3beef0f67f7b,공통플랫폼,Claude Code,dev-07,2026-10-25T09:45:00+09:00,2026-10-25T09:50:00+09:00,230,83,162,False,False
+evt-0340,mobile-core,bd860c60cfed,모바일개발,Cline,dev-12,2026-10-26T09:14:00+09:00,2026-10-26T09:19:00+09:00,105,118,76,False,False
+evt-0341,mobile-core,d78d0f26e680,모바일개발,Human,dev-18,2026-10-26T11:45:00+09:00,2026-10-26T11:50:00+09:00,111,82,0,False,False
+evt-0342,mobile-core,5aa7bc248547,모바일개발,Claude Code,dev-10,2026-10-26T13:33:00+09:00,2026-10-26T13:38:00+09:00,120,23,65,False,False
+evt-0343,mobile-ui,8fb0f26ad061,모바일개발,Claude Code,dev-21,2026-10-26T09:36:00+09:00,2026-10-26T09:41:00+09:00,322,96,260,False,False
+evt-0344,mobile-ui,c167a4db4ef2,모바일개발,Claude Code,dev-05,2026-10-26T11:14:00+09:00,2026-10-26T11:19:00+09:00,324,5,248,False,False
+evt-0345,mobile-ui,0f347395f1e8,모바일개발,Cline,dev-12,2026-10-26T13:30:00+09:00,2026-10-26T13:35:00+09:00,122,36,60,False,False
+evt-0346,tv-platform,7926ddf66d72,TV개발,Claude Code,dev-21,2026-10-26T09:25:00+09:00,2026-10-26T09:30:00+09:00,141,127,71,False,False
+evt-0347,tv-platform,4dc5b46224fc,TV개발,Human,dev-05,2026-10-26T11:45:00+09:00,2026-10-26T11:50:00+09:00,407,67,0,False,False
+evt-0348,tv-platform,93f51f79e10d,TV개발,Human,dev-21,2026-10-26T13:25:00+09:00,2026-10-26T13:30:00+09:00,96,106,0,False,False
+evt-0349,tv-platform,c4660cd5f67b,TV개발,Cline,dev-15,2026-10-26T15:46:00+09:00,2026-10-26T15:51:00+09:00,182,103,77,False,False
+evt-0350,tv-platform,32dbea4d7a8f,TV개발,Claude Code,dev-23,2026-10-26T17:36:00+09:00,2026-10-26T17:41:00+09:00,82,76,48,False,False
+evt-0351,tv-app,579aeeff42c2,TV개발,Cline,dev-18,2026-10-26T09:58:00+09:00,2026-10-26T10:03:00+09:00,398,34,215,False,False
+evt-0352,tv-app,9c3a118d589d,TV개발,Claude Code,dev-03,2026-10-26T11:29:00+09:00,2026-10-26T11:34:00+09:00,172,117,76,False,False
+evt-0353,tv-app,e34f22e1e8fa,TV개발,Claude Code,dev-10,2026-10-26T13:28:00+09:00,2026-10-26T13:33:00+09:00,236,110,96,False,False
+evt-0354,platform-api,e8ea79a23718,공통플랫폼,Cline,dev-19,2026-10-26T09:20:00+09:00,2026-10-26T09:25:00+09:00,210,92,175,False,False
+evt-0355,platform-api,7a873192b5c2,공통플랫폼,Claude Code,dev-11,2026-10-26T11:08:00+09:00,2026-10-26T11:13:00+09:00,240,111,148,False,False
+evt-0356,platform-api,c34efa0ac72c,공통플랫폼,Human,dev-02,2026-10-26T13:50:00+09:00,2026-10-26T13:55:00+09:00,258,98,0,False,False
+evt-0357,platform-api,f1a43ba12cfe,공통플랫폼,Human,dev-11,2026-10-26T15:48:00+09:00,2026-10-26T15:53:00+09:00,447,19,0,False,False
+evt-0358,platform-api,33304de1b003,공통플랫폼,Claude Code,dev-07,2026-10-26T17:23:00+09:00,2026-10-26T17:28:00+09:00,289,92,215,False,False
+evt-0359,developer-tools,48ab2042c161,공통플랫폼,Claude Code,dev-06,2026-10-26T09:36:00+09:00,2026-10-26T09:41:00+09:00,341,86,241,False,False
+evt-0360,developer-tools,cb18f80f89fd,공통플랫폼,Claude Code,dev-24,2026-10-26T11:51:00+09:00,2026-10-26T11:56:00+09:00,239,106,198,False,False
+evt-0361,developer-tools,f1227dbe601b,공통플랫폼,Claude Code,dev-08,2026-10-26T13:17:00+09:00,2026-10-26T13:22:00+09:00,243,70,183,False,False
+evt-0362,developer-tools,d8b0fc62a35d,공통플랫폼,Claude Code,dev-10,2026-10-26T15:50:00+09:00,2026-10-26T15:55:00+09:00,92,39,67,False,False
+evt-0363,mobile-core,e032811e1b48,모바일개발,Human,dev-12,2026-10-27T09:23:00+09:00,2026-10-27T09:28:00+09:00,464,88,0,False,False
+evt-0364,mobile-core,dff282a448bd,모바일개발,Claude Code,dev-07,2026-10-27T11:04:00+09:00,2026-10-27T11:09:00+09:00,452,5,366,False,False
+evt-0365,mobile-core,ec62ecfba00c,모바일개발,Claude Code,dev-12,2026-10-27T13:42:00+09:00,2026-10-27T13:47:00+09:00,172,48,143,False,False
+evt-0366,mobile-core,36431fe9cb4e,모바일개발,Claude Code,dev-14,2026-10-27T15:35:00+09:00,2026-10-27T15:40:00+09:00,297,103,188,False,False
+evt-0367,mobile-core,6f674580e062,모바일개발,Claude Code,dev-13,2026-10-27T17:39:00+09:00,2026-10-27T17:44:00+09:00,262,0,181,False,False
+evt-0368,mobile-ui,da9d8d479dae,모바일개발,Cline,dev-04,2026-10-27T09:52:00+09:00,2026-10-27T09:57:00+09:00,300,4,189,False,False
+evt-0369,mobile-ui,a2709790e550,모바일개발,Claude Code,dev-03,2026-10-27T11:24:00+09:00,2026-10-27T11:29:00+09:00,475,27,276,False,False
+evt-0370,mobile-ui,d75905e3181f,모바일개발,Human,dev-20,2026-10-27T13:56:00+09:00,2026-10-27T14:01:00+09:00,83,100,0,False,False
+evt-0371,tv-platform,83dbdecc70bc,TV개발,Claude Code,dev-07,2026-10-27T09:53:00+09:00,2026-10-27T09:58:00+09:00,82,82,46,False,False
+evt-0372,tv-platform,5113e5aabfcb,TV개발,Cline,dev-18,2026-10-27T11:17:00+09:00,2026-10-27T11:22:00+09:00,369,24,247,False,False
+evt-0373,tv-platform,a6cf60b52f1e,TV개발,Claude Code,dev-03,2026-10-27T13:44:00+09:00,2026-10-27T13:49:00+09:00,437,48,164,False,False
+evt-0374,tv-platform,c236aeb1a59f,TV개발,Human,dev-24,2026-10-27T15:02:00+09:00,2026-10-27T15:07:00+09:00,473,14,0,False,False
+evt-0375,tv-platform,e3b278724356,TV개발,Claude Code,dev-02,2026-10-27T17:05:00+09:00,2026-10-27T17:10:00+09:00,440,115,226,False,False
+evt-0376,tv-app,1397bb5e983b,TV개발,Cline,dev-14,2026-10-27T09:31:00+09:00,2026-10-27T09:36:00+09:00,101,80,73,False,False
+evt-0377,tv-app,76198b1303db,TV개발,Claude Code,dev-06,2026-10-27T11:00:00+09:00,2026-10-27T11:05:00+09:00,222,25,97,False,False
+evt-0378,tv-app,d172d96e7a0b,TV개발,Cline,dev-20,2026-10-27T13:18:00+09:00,2026-10-27T13:23:00+09:00,332,20,236,False,False
+evt-0379,tv-app,1f04ce9351fa,TV개발,Claude Code,dev-07,2026-10-27T15:29:00+09:00,2026-10-27T15:34:00+09:00,204,61,120,False,False
+evt-0380,platform-api,d2db38855476,공통플랫폼,Claude Code,dev-13,2026-10-27T09:38:00+09:00,2026-10-27T09:43:00+09:00,84,48,53,False,False
+evt-0381,platform-api,038b735cdee2,공통플랫폼,Claude Code,dev-12,2026-10-27T11:26:00+09:00,2026-10-27T11:31:00+09:00,415,83,285,False,False
+evt-0382,platform-api,95c23c858764,공통플랫폼,Claude Code,dev-23,2026-10-27T13:59:00+09:00,2026-10-27T14:04:00+09:00,370,47,331,False,False
+evt-0383,developer-tools,94988f0d268e,공통플랫폼,Human,dev-21,2026-10-27T09:09:00+09:00,2026-10-27T09:14:00+09:00,179,80,0,False,False
+evt-0384,developer-tools,00714919a831,공통플랫폼,Claude Code,dev-21,2026-10-27T11:58:00+09:00,2026-10-27T12:03:00+09:00,407,33,275,False,False
+evt-0385,developer-tools,1a0b3d96eb33,공통플랫폼,Cline,dev-13,2026-10-27T13:52:00+09:00,2026-10-27T13:57:00+09:00,323,94,221,False,False
+evt-0386,developer-tools,edf46d8d49c0,공통플랫폼,Claude Code,dev-02,2026-10-27T15:40:00+09:00,2026-10-27T15:45:00+09:00,439,46,327,False,False
+evt-0387,mobile-core,4cf958463d1e,모바일개발,Claude Code,dev-12,2026-10-28T09:28:00+09:00,2026-10-28T09:33:00+09:00,222,97,178,False,False
+evt-0388,mobile-core,42f45d5f6f86,모바일개발,Cline,dev-04,2026-10-28T11:39:00+09:00,2026-10-28T11:44:00+09:00,202,68,109,False,False
+evt-0389,mobile-core,39e74f04ae89,모바일개발,Claude Code,dev-12,2026-10-28T13:45:00+09:00,2026-10-28T13:50:00+09:00,220,57,120,False,False
+evt-0390,mobile-core,655e6d2f7a46,모바일개발,Claude Code,dev-05,2026-10-28T15:59:00+09:00,2026-10-28T16:04:00+09:00,343,50,291,False,False
+evt-0391,mobile-core,f6cdd5a9e8f6,모바일개발,Human,dev-10,2026-10-28T17:42:00+09:00,2026-10-28T17:47:00+09:00,267,116,0,False,False
+evt-0392,mobile-ui,af12290d96ce,모바일개발,Claude Code,dev-10,2026-10-28T09:41:00+09:00,2026-10-28T09:46:00+09:00,180,41,98,False,False
+evt-0393,mobile-ui,277e47a02c1f,모바일개발,Human,dev-04,2026-10-28T11:00:00+09:00,2026-10-28T11:05:00+09:00,135,36,0,False,False
+evt-0394,tv-platform,c43660c87dfa,TV개발,Claude Code,dev-04,2026-10-28T09:46:00+09:00,2026-10-28T09:51:00+09:00,336,4,219,False,False
+evt-0395,tv-platform,836115913735,TV개발,Claude Code,dev-16,2026-10-28T11:16:00+09:00,2026-10-28T11:21:00+09:00,61,35,31,False,False
+evt-0396,tv-platform,aa43dcdc2e5b,TV개발,Claude Code,dev-09,2026-10-28T13:47:00+09:00,2026-10-28T13:52:00+09:00,205,120,131,False,False
+evt-0397,tv-platform,0557745befdd,TV개발,Cline,dev-13,2026-10-28T15:44:00+09:00,2026-10-28T15:49:00+09:00,69,35,39,False,False
+evt-0398,tv-platform,e523730d8b10,TV개발,Claude Code,dev-04,2026-10-28T17:12:00+09:00,2026-10-28T17:17:00+09:00,371,16,165,False,False
+evt-0399,tv-app,e0e1eca294af,TV개발,Human,dev-21,2026-10-28T09:33:00+09:00,2026-10-28T09:38:00+09:00,280,77,0,False,False
+evt-0400,tv-app,cf32262cba5b,TV개발,Claude Code,dev-06,2026-10-28T11:37:00+09:00,2026-10-28T11:42:00+09:00,74,124,45,False,False
+evt-0401,platform-api,2e5ef19df7ce,공통플랫폼,Claude Code,dev-01,2026-10-28T09:51:00+09:00,2026-10-28T09:56:00+09:00,127,4,89,False,False
+evt-0402,platform-api,6a60b9fe1d13,공통플랫폼,Claude Code,dev-05,2026-10-28T11:58:00+09:00,2026-10-28T12:03:00+09:00,52,121,48,False,False
+evt-0403,platform-api,fed5315225fd,공통플랫폼,Claude Code,dev-01,2026-10-28T13:46:00+09:00,2026-10-28T13:51:00+09:00,375,36,277,False,False
+evt-0404,developer-tools,05567e93e63c,공통플랫폼,Claude Code,dev-24,2026-10-28T09:00:00+09:00,2026-10-28T09:05:00+09:00,255,17,240,False,False
+evt-0405,developer-tools,8e53b9dc65f8,공통플랫폼,Claude Code,dev-03,2026-10-28T11:53:00+09:00,2026-10-28T11:58:00+09:00,194,61,155,False,False
+evt-0406,developer-tools,e5bae7e374fa,공통플랫폼,Claude Code,dev-02,2026-10-28T13:03:00+09:00,2026-10-28T13:08:00+09:00,73,78,59,False,False
+evt-0407,mobile-core,bbb82ca7c6d3,모바일개발,Human,dev-10,2026-10-29T09:00:00+09:00,2026-10-29T09:05:00+09:00,474,99,0,False,False
+evt-0408,mobile-core,be7c9198fb42,모바일개발,Claude Code,dev-02,2026-10-29T11:05:00+09:00,2026-10-29T11:10:00+09:00,112,92,71,False,False
+evt-0409,mobile-core,7ef9acd46d06,모바일개발,Claude Code,dev-11,2026-10-29T13:44:00+09:00,2026-10-29T13:49:00+09:00,150,77,80,False,False
+evt-0410,mobile-core,97c524d445f3,모바일개발,Claude Code,dev-08,2026-10-29T15:23:00+09:00,2026-10-29T15:28:00+09:00,316,67,178,False,False
+evt-0411,mobile-core,74040c9041e7,모바일개발,Cline,dev-22,2026-10-29T17:21:00+09:00,2026-10-29T17:26:00+09:00,234,123,143,False,False
+evt-0412,mobile-ui,720835bb2646,모바일개발,Claude Code,dev-07,2026-10-29T09:19:00+09:00,2026-10-29T09:24:00+09:00,176,11,92,False,False
+evt-0413,mobile-ui,53ab09db52fa,모바일개발,Claude Code,dev-02,2026-10-29T11:51:00+09:00,2026-10-29T11:56:00+09:00,428,40,309,False,False
+evt-0414,mobile-ui,1007e403083b,모바일개발,Claude Code,dev-12,2026-10-29T13:59:00+09:00,2026-10-29T14:04:00+09:00,381,36,185,False,False
+evt-0415,mobile-ui,46561def312f,모바일개발,Claude Code,dev-24,2026-10-29T15:04:00+09:00,2026-10-29T15:09:00+09:00,363,73,216,False,False
+evt-0416,mobile-ui,f44c7e5563d8,모바일개발,Claude Code,dev-20,2026-10-29T17:33:00+09:00,2026-10-29T17:38:00+09:00,187,104,120,False,False
+evt-0417,tv-platform,dbc45dc9d61a,TV개발,Human,dev-14,2026-10-29T09:50:00+09:00,2026-10-29T09:55:00+09:00,123,54,0,False,False
+evt-0418,tv-platform,fd01a505033d,TV개발,Claude Code,dev-10,2026-10-29T11:27:00+09:00,2026-10-29T11:32:00+09:00,326,4,172,False,False
+evt-0419,tv-app,e70a6ea98957,TV개발,Claude Code,dev-13,2026-10-29T09:00:00+09:00,2026-10-29T09:05:00+09:00,209,126,140,False,False
+evt-0420,tv-app,5f61c2f5b05a,TV개발,Cline,dev-05,2026-10-29T11:27:00+09:00,2026-10-29T11:32:00+09:00,20,111,9,False,False
+evt-0421,tv-app,68e989f940b0,TV개발,Claude Code,dev-01,2026-10-29T13:48:00+09:00,2026-10-29T13:53:00+09:00,296,65,145,False,False
+evt-0422,platform-api,dc41e41d2434,공통플랫폼,Cline,dev-21,2026-10-29T09:21:00+09:00,2026-10-29T09:26:00+09:00,28,80,25,False,False
+evt-0423,platform-api,2c9727e771f7,공통플랫폼,Claude Code,dev-10,2026-10-29T11:08:00+09:00,2026-10-29T11:13:00+09:00,23,110,20,False,False
+evt-0424,developer-tools,12050878d3c7,공통플랫폼,Claude Code,dev-21,2026-10-29T09:01:00+09:00,2026-10-29T09:06:00+09:00,71,51,50,False,False
+evt-0425,developer-tools,ffe4252eb918,공통플랫폼,Cline,dev-09,2026-10-29T11:01:00+09:00,2026-10-29T11:06:00+09:00,44,117,31,False,False
+evt-0426,developer-tools,156b6e368980,공통플랫폼,Claude Code,dev-23,2026-10-29T13:40:00+09:00,2026-10-29T13:45:00+09:00,90,8,73,False,False
+evt-0427,mobile-core,18a5c3e29b48,모바일개발,Claude Code,dev-13,2026-10-30T09:17:00+09:00,2026-10-30T09:22:00+09:00,112,21,83,False,False
+evt-0428,mobile-core,1d253a03f9ae,모바일개발,Claude Code,dev-06,2026-10-30T11:21:00+09:00,2026-10-30T11:26:00+09:00,151,127,105,False,False
+evt-0429,mobile-core,65ca6e76a12b,모바일개발,Claude Code,dev-18,2026-10-30T13:39:00+09:00,2026-10-30T13:44:00+09:00,337,102,283,False,False
+evt-0430,mobile-core,2adea56a24ed,모바일개발,Claude Code,dev-02,2026-10-30T15:46:00+09:00,2026-10-30T15:51:00+09:00,390,27,211,False,False
+evt-0431,mobile-ui,c7fdbc2891b5,모바일개발,Claude Code,dev-17,2026-10-30T09:24:00+09:00,2026-10-30T09:29:00+09:00,335,59,273,False,False
+evt-0432,mobile-ui,f6f8717cb3a5,모바일개발,Claude Code,dev-05,2026-10-30T11:15:00+09:00,2026-10-30T11:20:00+09:00,35,37,19,False,False
+evt-0433,mobile-ui,271a02b0f219,모바일개발,Claude Code,dev-14,2026-10-30T13:02:00+09:00,2026-10-30T13:07:00+09:00,343,87,270,False,False
+evt-0434,mobile-ui,b7683d0c5a98,모바일개발,Claude Code,dev-06,2026-10-30T15:29:00+09:00,2026-10-30T15:34:00+09:00,110,93,65,False,False
+evt-0435,mobile-ui,c8e7849ba6dc,모바일개발,Claude Code,dev-15,2026-10-30T17:09:00+09:00,2026-10-30T17:14:00+09:00,447,14,214,False,False
+evt-0436,tv-platform,e38a4945bb3f,TV개발,Cline,dev-24,2026-10-30T09:14:00+09:00,2026-10-30T09:19:00+09:00,80,115,28,False,False
+evt-0437,tv-platform,0042c9f90601,TV개발,Cline,dev-19,2026-10-30T11:27:00+09:00,2026-10-30T11:32:00+09:00,259,117,96,False,False
+evt-0438,tv-platform,25d9bc13b326,TV개발,Human,dev-04,2026-10-30T13:11:00+09:00,2026-10-30T13:16:00+09:00,29,6,0,False,False
+evt-0439,tv-platform,8319a7dbff7f,TV개발,Claude Code,dev-11,2026-10-30T15:15:00+09:00,2026-10-30T15:20:00+09:00,235,13,95,False,False
+evt-0440,tv-app,ca0a9f1691d7,TV개발,Cline,dev-08,2026-10-30T09:20:00+09:00,2026-10-30T09:25:00+09:00,406,89,192,False,False
+evt-0441,tv-app,7bdfe539fd86,TV개발,Cline,dev-19,2026-10-30T11:18:00+09:00,2026-10-30T11:23:00+09:00,280,53,164,False,False
+evt-0442,platform-api,5e630cc12f72,공통플랫폼,Human,dev-20,2026-10-30T09:30:00+09:00,2026-10-30T09:35:00+09:00,308,114,0,False,False
+evt-0443,platform-api,893e3a49488d,공통플랫폼,Human,dev-05,2026-10-30T11:28:00+09:00,2026-10-30T11:33:00+09:00,146,29,0,False,False
+evt-0444,platform-api,ac38cad38d88,공통플랫폼,Cline,dev-09,2026-10-30T13:17:00+09:00,2026-10-30T13:22:00+09:00,54,95,38,False,False
+evt-0445,platform-api,af200504c8eb,공통플랫폼,Claude Code,dev-24,2026-10-30T15:14:00+09:00,2026-10-30T15:19:00+09:00,175,113,134,False,False
+evt-0446,developer-tools,63ea5b986a06,공통플랫폼,Claude Code,dev-05,2026-10-30T09:48:00+09:00,2026-10-30T09:53:00+09:00,140,110,96,False,False
+evt-0447,developer-tools,d48dc7ed164d,공통플랫폼,Claude Code,dev-12,2026-10-30T11:20:00+09:00,2026-10-30T11:25:00+09:00,89,65,74,False,False
+evt-0448,developer-tools,ce9905d5b03d,공통플랫폼,Human,dev-02,2026-10-30T13:55:00+09:00,2026-10-30T14:00:00+09:00,267,19,0,False,False
+evt-0449,developer-tools,c97e520f23aa,공통플랫폼,Cline,dev-10,2026-10-30T15:01:00+09:00,2026-10-30T15:06:00+09:00,212,80,176,False,False
+evt-0450,developer-tools,52a4c04b648f,공통플랫폼,Claude Code,dev-20,2026-10-30T17:27:00+09:00,2026-10-30T17:32:00+09:00,85,125,71,False,False
+evt-0451,mobile-core,1d29e87cf9a2,모바일개발,Cline,dev-24,2026-10-31T09:34:00+09:00,2026-10-31T09:39:00+09:00,75,107,56,False,False
+evt-0452,mobile-ui,38edbb90e933,모바일개발,Claude Code,dev-12,2026-10-31T09:24:00+09:00,2026-10-31T09:29:00+09:00,427,35,234,False,False
+evt-0453,tv-platform,5f50fbd288c7,TV개발,Cline,dev-14,2026-10-31T09:51:00+09:00,2026-10-31T09:56:00+09:00,391,113,211,False,False
+evt-0454,tv-app,74cc153edc30,TV개발,Cline,dev-08,2026-10-31T09:41:00+09:00,2026-10-31T09:46:00+09:00,454,111,229,False,False
+evt-0455,platform-api,280e34198e32,공통플랫폼,Claude Code,dev-12,2026-10-31T09:08:00+09:00,2026-10-31T09:13:00+09:00,277,13,252,False,False
+evt-0456,developer-tools,816fa079bdcd,공통플랫폼,Claude Code,dev-06,2026-10-31T09:33:00+09:00,2026-10-31T09:38:00+09:00,455,48,312,False,False
+evt-0457,mobile-core,2685543c43b1,모바일개발,Claude Code,dev-13,2026-11-01T09:25:00+09:00,2026-11-01T09:30:00+09:00,347,12,214,False,False
+evt-0458,mobile-ui,c9744c8b9a2c,모바일개발,Claude Code,dev-01,2026-11-01T09:49:00+09:00,2026-11-01T09:54:00+09:00,224,125,115,False,False
+evt-0459,tv-platform,e27b5b051c6c,TV개발,Claude Code,dev-22,2026-11-01T09:44:00+09:00,2026-11-01T09:49:00+09:00,436,69,173,False,False
+evt-0460,tv-app,05e1d9338b70,TV개발,Claude Code,dev-20,2026-11-01T09:42:00+09:00,2026-11-01T09:47:00+09:00,35,80,15,False,False
+evt-0461,platform-api,6f5a6bffb70b,공통플랫폼,Human,dev-20,2026-11-01T09:56:00+09:00,2026-11-01T10:01:00+09:00,240,77,0,False,False
+evt-0462,developer-tools,bc2ac224a093,공통플랫폼,Human,dev-14,2026-11-01T09:11:00+09:00,2026-11-01T09:16:00+09:00,167,95,0,False,False
+edge-zero,mobile-core,zeroadded001,모바일개발,Human,dev-01,2026-11-01T23:59:00+09:00,2026-11-02T00:00:00+09:00,0,75,0,False,False
+evt-0001-retry,mobile-core,dfc8257982cf,모바일개발,Claude Code,dev-11,2026-10-05T09:05:00+09:00,2026-10-05T10:10:00+09:00,21,103,14,False,False
+evt-0018-retry,developer-tools,e82628fd9546,공통플랫폼,Claude Code,dev-15,2026-10-05T11:23:00+09:00,2026-10-05T12:28:00+09:00,347,101,233,False,False
+evt-0084-retry,mobile-ui,9d2e1d493c1f,모바일개발,Claude Code,dev-04,2026-10-09T13:46:00+09:00,2026-10-09T14:51:00+09:00,100,25,42,False,False
+evt-0152-retry,platform-api,f9c1f69528b6,공통플랫폼,Claude Code,dev-02,2026-10-13T11:07:00+09:00,2026-10-13T12:12:00+09:00,169,6,97,False,False
+evt-0234-retry,mobile-ui,ff15d0f055c9,모바일개발,Cline,dev-24,2026-10-19T11:13:00+09:00,2026-10-19T12:18:00+09:00,220,35,169,False,False
+excluded-merge,mobile-core,excludedmerge,모바일개발,Human,dev-04,2026-10-05T11:17:00+09:00,2026-10-05T11:22:00+09:00,9000,55,8000,True,False
+excluded-bot,mobile-core,excludedbot,모바일개발,Human,dev-04,2026-10-05T11:17:00+09:00,2026-10-05T11:22:00+09:00,9000,55,8000,False,True

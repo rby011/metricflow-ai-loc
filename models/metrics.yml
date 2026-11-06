@@ -1,0 +1,99 @@
+version: 2
+
+# dbt Core 1.12+ semantic YAML. All metric calculations live here.
+models:
+  - name: fct_commits
+    description: "중복 수집·merge·bot을 제외한 커밋. LOC는 코드 파일의 집계 대상 추가/삭제 행."
+    semantic_model:
+      enabled: true
+      name: commits
+    agg_time_dimension: committed_date
+    columns:
+      - name: commit_key
+        entity:
+          name: commit
+          type: primary
+        data_tests: [unique, not_null]
+      - name: commit_sha
+        dimension:
+          type: categorical
+      - name: committed_date
+        granularity: day
+        dimension:
+          type: time
+        data_tests: [not_null]
+      - name: organization
+        dimension:
+          type: categorical
+        data_tests: [not_null]
+      - name: repository
+        dimension:
+          type: categorical
+        data_tests: [not_null]
+      - name: agent
+        dimension:
+          type: categorical
+        data_tests: [not_null]
+    metrics:
+      - name: commit_loc
+        label: Commit LOC
+        description: "커밋에 추가된 집계 대상 코드 줄 수. 삭제 행은 포함하지 않음."
+        type: simple
+        agg: sum
+        expr: added_loc
+      - name: ai_loc
+        label: AI LOC
+        description: "Commit LOC 중 AI 작성으로 식별된 추가 코드 줄 수."
+        type: simple
+        agg: sum
+        expr: ai_added_loc
+      - name: commit_count
+        label: Commit 수
+        description: "저장소와 SHA 조합으로 중복 제거한 커밋 수."
+        type: simple
+        agg: count_distinct
+        expr: commit_key
+      - name: deleted_loc
+        label: Deleted LOC
+        description: "집계 대상 삭제 코드 줄 수."
+        type: simple
+        agg: sum
+        expr: deleted_loc
+
+  - name: time_spine
+    time_spine:
+      standard_granularity_column: date_day
+    columns:
+      - name: date_day
+        granularity: day
+        data_tests: [unique, not_null]
+
+metrics:
+  - name: ai_share
+    label: AI 코드 비중
+    description: "SUM(AI LOC) / SUM(Commit LOC). 커밋별 비율의 단순 평균이 아님. 0분모는 NULL."
+    type: ratio
+    numerator: ai_loc
+    denominator: commit_loc
+  - name: human_loc
+    label: Human LOC
+    description: "Commit LOC - AI LOC. 본 샘플은 모든 추가 행의 귀속을 알고 있다고 가정."
+    type: derived
+    expr: commit_loc - ai_loc
+    input_metrics:
+      - name: commit_loc
+      - name: ai_loc
+  - name: loc_per_commit
+    label: LOC / Commit
+    description: "Commit LOC / Commit 수."
+    type: ratio
+    numerator: commit_loc
+    denominator: commit_count
+  - name: churn_loc
+    label: 변경 LOC
+    description: "추가 LOC + 삭제 LOC. Commit LOC와 구분."
+    type: derived
+    expr: commit_loc + deleted_loc
+    input_metrics:
+      - name: commit_loc
+      - name: deleted_loc
